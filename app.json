@@ -1,5 +1,15 @@
 {
-  "expo": {
-    "sdkVersion": "17.0.0"
-  }
+    "expo": {
+        "name": "OpenWeather",
+        "icon": "./components/weather/icons/sunny.png",
+        "version": "0.0.1",
+        "slug": "open-weather",
+        "sdkVersion": "18.0.0",
+        "ios": {
+            "bundleIdentifier": "com.hackjack.openweather"
+        },
+        "android": {
+            "package": "com.hackjack.openweather"
+        }
+    }
 }
